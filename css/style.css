@@ -1,0 +1,153 @@
+  
+html {
+    font-family: 'Roberto', sans-serif;
+}
+
+section {
+    background-color: #f6dbb3;
+}
+
+p {
+    background-color: #f6dbb3;  
+}
+
+
+/*  BODY */
+
+.anchor {
+    padding-top: 55px;
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
+header {
+    max-width: 1024px;
+}
+
+.headercontainer {
+    position: fixed;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roberto', sans-serif;
+    background-color: #F25F5C;
+}
+
+#my_name {
+    color: white;
+    line-height: 35px;
+    height: 36px;
+    margin-left: 5px;
+    font-size: 36px;
+}
+
+.nav {
+    display: inline-block;
+    border-radius: 25px;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+    background-color: #28587B;
+}
+
+.nav a {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    text-shadow: 1px 1px 0 #bbbbbb;
+  }
+
+ul, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.about_me_container {
+    display: flex;
+}
+
+.about_me_text_container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+ul.circle {
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+.image_container {
+    padding: 15px;
+}
+.projects_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project_one_container,
+.project_two_container {
+    display: grid;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+.skills_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg {
+    background-color: #f5f1e5;    
+}
+
+.contact_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills_icons,
+.contact_icons {
+    margin: auto;
+    padding: 30px 5px 0px 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .headercontainer {
+        display: block;
+        height: 100px;
+    }
+    .anchor {
+        padding-top: 105px;
+    }
+    .about_me_container {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav a {
+      width: 75px;
+      padding: 1px;
+      font-size: 14px;
+      text-shadow: 0px 0px 0 #bbbbbb;
+    }
+  }
